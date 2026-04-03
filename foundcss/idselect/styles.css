@@ -1,0 +1,19 @@
+p{
+    background-color: rgb(230, 169, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#second{
+    color:blue;
+    font-size: 36px;
+}
+
+.third{
+    font-size: 24px;
+}
+
+#fourth{
+    background-color: aquamarine;
+    font-size: 24px;
+    font-weight: bold;
+}
