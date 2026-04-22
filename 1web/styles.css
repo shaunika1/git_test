@@ -73,25 +73,32 @@ a{
 .boxes{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: center;
     text-align: center;
-    max-width:200px;
+    
     padding: 20px;
     gap: 20px;
+    flex: 1;
 }
 
 .info1{
     font-weight: bold;
     font-size: 30px;
+    text-align: center;
 }
 
 .album{
     width: 100px;
     height: 100px;
-    border-radius: 10px;
-    border-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    
 }
+.item{
+    max-width:200px;
+}
+
 
 
 
